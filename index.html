@@ -1,0 +1,16 @@
+<body>
+    <input type="text" id="incode" placeholder="Type your code here!">
+    <button onclick="parse();">Parse!</button>
+    <button onclick="clr();">Clear</button>
+    <p id="bfcode"></p>
+    <h1>Esombley (Esoteric Assembly)</h1><br>
+    <h3>Commands (case insensitive):</h3>
+    <p>INP x:Takes input at memory location x</p>
+    <p>OUT x:Takes output at memory location x</p>
+    <p>ADD x y:Sets memory loc. x to x+y & y to 0</p>
+    <p>SUB x y:Sets memory loc. x to x-y & y to 0</p>
+    <p>MULT w x y z:Sets w to 0 & z to w*x.</p>
+    <p>For MULT to work, y & z have to be 0 before multiplying</p>
+    <p>Commands seperated by semicolon & parameters by spaces</p>
+</body>
+<script src="main.js"></script>
